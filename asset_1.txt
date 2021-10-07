@@ -1,0 +1,23 @@
+Tipo do equipamento: Desktop<br>
+Modelo: Dell Latitude 9092<br>
+Processador Intel(R) Core(TM) i7-4771<br>
+CPU @ 3.50GHz, 3501 Mhz<br>
+4 Núcleo(s)<br>
+8 Processador(es) Lógico(s)<br>
+BaseBoard ASRock<br>
+Produto B85 Killer<br>
+HDD 2TB Kingston<br>
+SSD 1TB Kingston<br>
+Fone Geneys Triple Fan 1250w<br>
+GPU Gigabyte NVidia<br>
+GeForce RTX 3090ti 16GB<br>
+RAM 32,0 GB<br>
+SO Windows 10 Pro (64 bits)<br>
+Microsoft Corporation<br>
+Versão 21H2<br>
+Instalado em ‎02/‎07/‎2021<br>
+Compilação do SO 19044.1237<br>
+Experience Pack 120.2212.3920.0<br>
+Garantia: Sim<br>
+Vigência: 08/2022<br>
+Sistemas Instalados/Licenciados: Office Pro, Adobe Studio

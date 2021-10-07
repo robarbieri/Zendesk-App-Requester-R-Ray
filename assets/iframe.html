@@ -14,30 +14,75 @@
   </footer>
 
   <script id="requester-template" type="text/x-handlebars-template">
-    <table>
-    <tr>
-      <td>Customer:</td>
-      <td class="data">{{name}}</td>
+      <table>
+          <tr>
+              <td><b>Usuário:</b></td>
+              <td class="data">{{name}}</td>
+          </tr>
+          {{#if tags}}
+          <tr>
+              <td><b>Tags:</b></td>
+              <td class="data">{{#each tags}}{{this}} {{/each}}</td>
+          </tr>
+          {{/if}}
+          <tr>
+              <td><b>Dt. Criação:</b></td>
+              <td class="data" >{{created_at}}</td>
+          </tr>
+          <tr>
+              <td><b>Últ. Login:</b></td>
+              <td class="data">{{last_login_at}}</td>
+          </tr>
+        </table>
+      <table>
+          <!--<tr style="text-align:left">
+              <td style="text-align:left"><b>API Type: </b>{{external_type}}</td>
+          </tr>
+          <tr style="text-align:left">
+              <td style="text-align:left"><b>API Data Type: </b>{{external_datatype}}</td>
+          </tr>-->
+          <tr><td><br>
+          <tr style="text-align:left">
+              <td style="text-align:left"><b>Dados do Ativo:</b></td>
+          </tr>
+          <tr><td class=*data*>{{ativo_data1}}</td></tr>
+          <tr><td class=*data*>{{ativo_data2}}</td></tr>
+          <tr><td class=*data*>{{ativo_data3}}</td></tr>
+          <tr><td class=*data*>{{ativo_data4}}</td></tr>
+          <tr><td class=*data*>{{ativo_data5}}</td></tr>
+          <tr><td class=*data*>{{ativo_data6}}</td></tr>
+          <tr><td class=*data*>{{ativo_data7}}</td></tr>
+          <tr><td class=*data*>{{ativo_data8}}</td></tr>
+          <tr><td class=*data*>{{ativo_data9}}</td></tr>
+          <tr><td class=*data*>{{ativo_data10}}</td></tr>
+          <tr><td class=*data*>{{ativo_data11}}</td></tr>
+          <tr><td class=*data*>{{ativo_data12}}</td></tr>
+          <tr><td class=*data*>{{ativo_data13}}</td></tr>
+          <tr><td class=*data*>{{ativo_data14}}</td></tr>
+          <tr><td class=*data*>{{ativo_data15}}</td></tr>
+          <tr><td class=*data*>{{ativo_data16}}</td></tr>
+          <tr><td class=*data*>{{ativo_data17}}</td></tr>
+          <tr><td class=*data*>{{ativo_data18}}</td></tr>
+          <tr><td class=*data*>{{ativo_data19}}</td></tr>
+          <tr><td class=*data*>{{ativo_data20}}</td></tr>
+          <tr><td class=*data*>{{ativo_data21}}</td></tr>
+          <tr><td class=*data*>{{ativo_data22}}</td></tr>
+          <tr><td class=*data*>{{ativo_data23}}</td></tr>
+          <tr><td class=*data*>{{ativo_data24}}</td></tr>
+
+          <!--<tr>
+        <td>API URL:</td>
+        <td class="data">{{external_url}}</td>
     </tr>
-    {{#if tags}}
     <tr>
-      <td>Tags:</td>
-      <td class="data">{{#each tags}}{{this}} {{/each}}</td>
-    </tr>
-    {{/if}}
-    <tr>
-      <td>Added:</td>
-      <td class="data">{{created_at}}</td>
-    </tr>
-    <tr>
-      <td>Last signed in:</td>
-      <td class="data">{{last_login_at}}</td>
-    </tr>
-    </table>
-  </script>
+        <td>Response:</td>
+        <td class="data">{{external_data}}</td>
+    </tr>-->
+      </table>
+</script>
 
   <script id="error-template" type="text/x-handlebars-template">
-    <p>{{status}} - {{statusText}} error. Please report a bug at the link below.</p>
+    <p>{{status}} - {{statusText}} error. Reportar o erro.</p>
   </script>
 
   <script src="https://cdn.jsdelivr.net/npm/handlebars@4.3.3/dist/handlebars.min.js"></script>

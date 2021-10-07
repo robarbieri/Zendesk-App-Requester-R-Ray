@@ -1,9 +1,9 @@
 {
-  "name": "Requester X-ray",
+  "name": "Controle de Ativos v2",
   "author": {
-    "name": "John Doe",
-    "email": "jdoe@example.com",
-    "url": ""
+    "name": "Rodrigo Barbieri",
+    "email": "rbarbieri@zxperience.com",
+    "url": "https://www.zxperience.com.br"
   },
   "defaultLocale": "en",
   "private": true,
